@@ -1,7 +1,5 @@
 {
-    "name": "watch-classification-python",
-    "version": 2,
-    "builds": [
-        {"src": "*.py", "use": "@now/python", "config": {"maxLambdaSize": "100mb"}}
-    ]
+    "features": {
+        "cloud": "v1"
+    }
 }
