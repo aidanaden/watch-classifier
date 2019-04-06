@@ -1,4 +1,3 @@
-gcc
 starlette
 uvicorn
 aiohttp
