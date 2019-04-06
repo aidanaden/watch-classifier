@@ -1,5 +1,5 @@
 {
     "name": "watch-classification",
     "version": 2,
-    "builds": [{"src": "*.py", "use": "@now/python"}]
+    "builds": [{"src": "watch-classification.py", "use": "@now/python"}]
 }
