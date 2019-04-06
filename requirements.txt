@@ -1,5 +1,0 @@
-starlette
-uvicorn
-aiohttp
-asyncio
-https://download.pytorch.org/whl/cu100/torch-1.0.1-cp36-cp36m-win_amd64.whl
