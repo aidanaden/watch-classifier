@@ -1,5 +1,7 @@
 {
-    "name": "watch-classification",
+    "name": "watch-classification-python",
     "version": 2,
-    "builds": [{"src": "watch-classification.py", "use": "@now/python"}]
+    "builds": [
+        {"src": "*.py", "use": "@now/python"}
+    ]
 }
