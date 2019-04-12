@@ -3,9 +3,11 @@ from fastai.widgets import *
 from starlette.applications import Starlette
 from starlette.responses import JSONResponse, HTMLResponse, RedirectResponse
 from io import BytesIO
+from pprint import pprint
 import uvicorn
 import aiohttp
 import asyncio
+import requests
 
 async def get_bytes(url):
     async with aiohttp.ClientSession() as session:
